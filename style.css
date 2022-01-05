@@ -1,0 +1,146 @@
+body{background-image:url("./jumia clone img/jumia img/tsimg/NewYearVibes_BG.jpg");
+    z-index: 1;
+background-color: #F5F5F5;
+background-attachment: fixed;
+margin: 0%;
+}
+.top-strip{position: relative;
+margin-top: 0%;}
+.jumia-sell{background-color: #F5F5F5;
+    margin-right: 0%;
+display: flex;
+width: 100%;
+}
+.sell i { color: #FD9807;
+padding:3%;}
+
+.middle img{
+    width: 5%;
+}
+.icon{ height: 17px;
+width: auto;
+object-fit: contain;
+filter: grayscale(100%);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-top: 1%;
+margin-bottom:1%;}
+.icon:hover{filter: none;}
+
+.middle{transform: translate(20%);}
+.sell{width: 20%;
+margin-left: 3%;}
+.hovertext{position: relative;
+   }
+.hovertext::before{ content: attr(data-hover);
+visibility: hidden;
+opacity: 0;
+width: 150%;
+background-color:white;
+color: black;
+text-align: center;
+padding: 5px 0;
+transition: opacity 1s ease-in-out;
+position: absolute;
+z-index: 1;
+left: 10%;
+top: 120%;
+border: 1px solid black;}
+.hovertext:hover:before{opacity: 1;
+visibility: visible;}
+a{text-decoration: none;
+color: rgb(187, 183, 183);}
+
+.nav-wrapper{background-color:#FFFF;
+display: flex;}
+.jumia-nav img{ width: 50%;
+height: auto;
+margin-left: 10%;
+padding: 5% 2% 5% 2%;}
+.jumia img{width:7%;
+margin-left: 2%;}
+button{background-color: #FD9807;
+color: #FFFF;
+height: 80%;
+width: auto;
+border-top-left-radius: 0%;
+border-top-right-radius: 10%;
+border-bottom-left-radius: 0%;
+border-bottom-right-radius: 10%;
+border: none;}
+form{width: 260%;
+height: 50px;
+border-top-left-radius: 10%;
+border-top-right-radius: 10%;
+border-bottom-left-radius: 10%;
+border-bottom-right-radius: 10%;
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-top: 2%;
+border: none;
+}
+input{width: 260%;
+height: 80%;
+width: 80%;
+padding: 6px 10px;
+border-top-left-radius: 5px;
+border-top-right-radius: 0px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 0px;
+
+}
+.last-nav{transform: translate(200%,15%);
+display: flex;}
+i{color: black;}
+.list{font-weight: 500;}
+::placeholder{font-size: 140%;}
+.dropdown button:hover{color: #FD9807;}
+i:hover{color: #FD9807;}
+.main-ad{border: 1px solid black;
+width: 50%;
+height: 400px;
+background-image: url("../jumia clone/jumia clone img/jumia img/jumia gif/giphy.gif");
+transform: translate(25%);
+position: relative;
+}
+
+
+img.animated-gif{ width: 500px;
+height: 400px;}
+  .side-ad{ transform: translate(320%,-100%);
+width: 20%;
+border: none
+height: 400px;}
+.bottom-gif{ margin-top: 7%;
+object-fit: cover;}
+.top-gif{margin-top: 0;}
+.vertical-menu {
+    width: 200px; 
+   
+  }
+  
+  .vertical-menu a {
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 12px;
+    text-decoration: none;
+    overflow: hidden;
+    transform: translate(-110%,-880%);
+   
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; 
+    color: #FD9807;
+  }
+  
+  .vertical-menu a.{position: absolute;
+    color: white;
+  }
+  .active{border-top-left-radius: 5px;
+    border-top-right-radius: 5px;}
+.last{border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    }
+  
